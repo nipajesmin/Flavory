@@ -15,14 +15,14 @@ const Community = () => {
                     {/* Image containers with padding and margin for spacing */}
                     <div className="h-16 md:h-28 w-32 md:w-40 mr-5 flex-shrink-0">
                         <img
-                            src="/src/assets/chef.jpg"
+                            src="/chef.jpg"
                             alt="Senior Chef"
                             className="w-full h-full object-contain rounded-lg shadow-lg"
                         />
                     </div>
                     <div className="h-16 md:h-28 w-32 md:w-40 mr-5 flex-shrink-0">
                         <img
-                            src="/src/assets/manager.jpg"
+                            src="/manager.jpg"
                             alt="manager"
                             className="w-full h-full object-contain rounded-lg shadow-lg"
                         />
@@ -30,7 +30,7 @@ const Community = () => {
 
                     <div className="h-16 md:h-28 w-32 md:w-40 mr-5 flex-shrink-0">
                         <img
-                            src="/src/assets/chef3.jpg"
+                            src="/chef3.jpg"
                             alt="Assistant Chef"
                             className="w-full h-full object-contain rounded-lg shadow-lg"
                         />
@@ -38,7 +38,7 @@ const Community = () => {
 
                     <div className="h-16 md:h-28 w-32 md:w-40 mr-5 flex-shrink-0">
                         <img
-                            src="/src/assets/waiter6.jpg"
+                            src="/waiter6.jpg"
                             alt="waiter 6"
                             className="w-full h-full object-contain rounded-lg shadow-lg"
                         />
@@ -46,7 +46,7 @@ const Community = () => {
 
                     <div className="h-16 md:h-28 w-32 md:w-40 mr-5 flex-shrink-0">
                         <img
-                            src="/src/assets/waiter2.jpg"
+                            src="/waiter2.jpg"
                             alt="waiter 2"
                             className="w-full h-full object-contain rounded-lg shadow-lg"
                         />
@@ -54,14 +54,14 @@ const Community = () => {
 
                     <div className="h-16 md:h-28 w-32 md:w-40 mr-5 flex-shrink-0">
                         <img
-                            src="/src/assets/waiter3.jpg"
+                            src="/waiter3.jpg"
                             alt="waiter 3"
                             className="w-full h-full object-contain rounded-lg shadow-lg"
                         />
                     </div>
                     <div className="h-16 md:h-28 w-32 md:w-40 mr-5 flex-shrink-0">
                         <img
-                            src="/src/assets/waiter4.jpg"
+                            src="/waiter4.jpg"
                             alt="waiter 4"
                             className="w-full h-full object-contain rounded-lg shadow-lg"
                         />

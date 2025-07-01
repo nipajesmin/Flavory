@@ -33,12 +33,7 @@ const Navbar = () => {
                     >
                         All Foods
                     </Link>
-                    <Link
-                       // to="/gallery"
-                        className={`hover:text-yellow-300 transition ${isActive('/allSportsEquipment') ? 'font-bold text-yellow-500' : ''}`}
-                    >
-                        Gallary
-                    </Link>
+                    
 
 
                 </div>
