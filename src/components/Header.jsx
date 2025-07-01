@@ -4,22 +4,27 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Header = () => {
     return (
-        
-        <div className="max-w-4xl mx-auto mt-6">
-            <Carousel showThumbs={false} autoPlay infiniteLoop>
-                <div>
-                    <img src="/src/assets/img1.jpg" alt="Image 1" className="h-[400px] object-cover" />
-                    
-                </div>
-                <div>
-                    <img src="/src/assets/img2.jpg" alt="Image 2" className="h-[400px] object-cover" />
-                    
-                </div>
-                <div>
-                    <img src="/src/assets/img3.jpg" alt="Image 3" className="h-[400px] object-cover" />
-                    
-                </div>
-            </Carousel>
+        <div className="w-11/12 mx-auto mt-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Left side: Carousel */}
+            <div>
+                <Carousel showThumbs={false} autoPlay infiniteLoop>
+                    <div>
+                        <img src="/src/assets/interior5.jpg" alt="Image 1" className="h-[400px] w-full object-cover rounded-lg" />
+                    </div>
+                    <div>
+                        <img src="/src/assets/interior4.jpg" alt="Image 2" className="h-[400px] w-full object-cover rounded-lg" />
+                    </div>
+                    <div>
+                        <img src="/src/assets/interior (3).jpg" alt="Image 3" className="h-[400px] w-full object-cover rounded-lg" />
+                    </div>
+                </Carousel>
+            </div>
+
+            {/* Right side: Two stacked images */}
+            <div className="flex flex-col gap-6">
+                <img src="/src/assets/interior (1).jpg" alt="Right Image 1" className="h-[195px] w-full object-cover rounded-lg" />
+                <img src="/src/assets/interior (2).jpg" alt="Right Image 2" className="h-[195px] w-full object-cover rounded-lg" />
+            </div>
         </div>
     );
 };

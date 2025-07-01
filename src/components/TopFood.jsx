@@ -36,7 +36,7 @@ const TopFood = () => {
     }
 
     return (
-        <div className="w-11/12 mx-auto mt-10 py-16">
+        <div className="w-11/12 mx-auto mt-5 py-16">
             <h2 className="text-4xl font-extrabold text-center text-black mb-10">Top Meals Today</h2>
             <p className="text-center text-gray-600 text-lg mb-10">
                 Discover a variety of meals from around the world that our users love!
@@ -67,7 +67,7 @@ const TopFood = () => {
                         </p>
                         <button
                             className="mt-4 bg-amber-700 text-white py-2 px-4 rounded hover:bg-amber-500"
-                            onClick={() => navigate(`/meal/${food.idMeal}`)}
+                            onClick={() => navigate(`/singleFood/${food.idMeal}`)}
                         >
                             View Details
                         </button>

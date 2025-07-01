@@ -81,8 +81,8 @@ const AllFood = () => {
                             </p>
                             <p className="text-sm text-gray-500 mt-1">Category: {food.strCategory}</p>
                             <button
-                                className="mt-4 bg-amber-700 text-white py-2 px-4 rounded hover:bg-green-500"
-                                onClick={() => navigate(`/meal/${food.idMeal}`)}
+                                className="mt-4 bg-amber-700 text-white py-2 px-4 rounded hover:bg-amber-500"
+                                onClick={() => navigate(`/singleFood/${food.idMeal}`)}
                             >
                                 View Details
                             </button>
