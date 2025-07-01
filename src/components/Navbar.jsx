@@ -34,7 +34,7 @@ const Navbar = () => {
                         All Foods
                     </Link>
                     <Link
-                        to="/gallery"
+                       // to="/gallery"
                         className={`hover:text-yellow-300 transition ${isActive('/allSportsEquipment') ? 'font-bold text-yellow-500' : ''}`}
                     >
                         Gallary
@@ -47,13 +47,13 @@ const Navbar = () => {
                     
                         <div className="flex space-x-4">
                             <Link
-                                to="/signin"
+                              //  to="/signin"
                                 className={`text-black hover:text-slate-50 transition ${isActive('/signin') ? 'font-bold text-yellow-500' : ''}`}
                             >
                                 Sign In
                             </Link>
                             <Link
-                                to="/register"
+                             //   to="/register"
                                 className={`text-black hover:text-slate-50 transition ${isActive('/register') ? 'font-bold text-yellow-500' : ''}`}
                             >
                                 Register

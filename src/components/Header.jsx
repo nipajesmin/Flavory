@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Header = () => {
     return (
+        
         <div className="max-w-4xl mx-auto mt-6">
             <Carousel showThumbs={false} autoPlay infiniteLoop>
                 <div>
