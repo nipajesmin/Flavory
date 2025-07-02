@@ -3,9 +3,9 @@ import Header from './Header';
 import Navbar from './Navbar';
 import TopFood from './TopFood';
 import Footer from './Footer';
-import FlavoryTeam from './FlavoryTeam';
 import Updates from './Updates';
 import Community from './Community';
+
 
 const HomeLayout = () => {
     return (
@@ -14,7 +14,7 @@ const HomeLayout = () => {
             <Header></Header>
             <Updates></Updates>
             <TopFood></TopFood>
-            <Community></Community>
+            <Community></Community>           
             <Footer></Footer>
         </div>
     );

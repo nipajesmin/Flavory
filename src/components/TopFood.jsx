@@ -11,7 +11,7 @@ const TopFood = () => {
             try {
                 const fetchedMeals = [];
 
-                // Fetch 6 random meals
+                
                 for (let i = 0; i < 6; i++) {
                     const res = await fetch('https://www.themealdb.com/api/json/v1/1/random.php');
                     const data = await res.json();

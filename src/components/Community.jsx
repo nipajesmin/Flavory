@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee';
 
 const Community = () => {
     return (
-        <div className="max-w-screen-xl md:mx-auto my-16 mx-4">
+        <div className="max-w-screen-xl md:mx-auto mx-4 mb-4">
 
             {/* Header */}
             <h1 className="text-center text-2xl md:text-4xl font-bold text-black mb-12">

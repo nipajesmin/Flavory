@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const AllFood = () => {
     const [foods, setFoods] = useState([]);
@@ -40,7 +41,7 @@ const AllFood = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="w-11/12 mx-auto">
+            <div className="w-11/12 mx-auto mb-4">
                 {/* Header */}
                 <div className="bg-gray-100 text-amber-700 p-8 md:p-12 rounded-lg shadow-lg text-center my-5">
                     <h1 className="text-3xl md:text-5xl font-bold mb-4">All Meals</h1>
@@ -90,6 +91,7 @@ const AllFood = () => {
                     ))}
                 </div>
             </div>
+            <Footer></Footer>
         </div>
 
     );
